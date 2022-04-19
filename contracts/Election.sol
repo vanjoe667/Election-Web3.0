@@ -8,7 +8,7 @@ contract Election {
     }
     mapping(uint => Candidate) public candidates;  // mapping of candidate id to candidate
     uint public candidatesCount; // number of candidates
-    constructor() public{
+    constructor() public{ 
         addCandidate("Candidate 1");
         addCandidate("Candidate 2");
         addCandidate("Candidate 3");
